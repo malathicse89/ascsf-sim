@@ -2,7 +2,7 @@
 
 Simulation code, workload inputs and result files for the paper
 "ASCSF: A Bounded-Disclosure Autonomous Collaborative Scheduling Framework for Sustainable Geo-Distributed Cloud Computing"
-(Selvaraj, Jaganathan, A, G; Sri Krishna College of Engineering and Technology).
+(Malathi Selvaraj, Dhiyaneswaran Jaganathan, A, G; Sri Krishna College of Engineering and Technology).
 
 ## Requirements
 Java 17, Maven, CloudSim Plus 7.3.0 (see `pom.xml`), Python 3.10+ with pandas for the data scripts.
@@ -22,4 +22,4 @@ Set `RUN_MODE` and `REVIEW_SET` in `MainSimulation.java`
 - **Electricity Maps** carbon intensity and renewable share (2025; SE, DE, PL; hourly, flow-traced, lifecycle): licensed data, not redistributed here. Obtain your own API access, run `scripts/fetch_grid.py` (API key read from an environment variable, never stored in the repository) to create `carbon.csv` and `renewable.csv`, then `python scripts/build_trace_days.py carbon.csv renewable.csv trace_data/trace_days.csv`.
 
 ## Citation
-See the paper. Licence: add your choice (for example MIT for code) before publishing.
+See the paper. Licence: MIT (see LICENSE) before publishing.
