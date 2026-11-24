@@ -1,0 +1,10 @@
+# never commit credentials or licensed raw data
+*.key
+.env
+api_key.txt
+grid/*.json
+grid/carbon.csv
+grid/renewable.csv
+trace_data/trace_days.csv
+target/
+bin/
